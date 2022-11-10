@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>beverage</title>
+	<style>
+		@import url("assens/header.css");
+		@import url("assens/content.css");
+		@import url("assens/footer.css");
+		@import url("assens/body.css");
+	</style>
+</head>
+<body>
+	<header class="head">
+		<div class="container">
+			<div class="head__menu">
+				<h1 class="logo">quirky<br>-fruity</h1>
+				<div class="head__submenu">
+					<a href="#" class="head__submenu_item">Home</a>
+					<a href="#" class="head__submenu_item">Beverage</a>
+					<a href="#" class="head__submenu_item">Stores</a>
+					<a href="#" class="head__submenu_item">About</a>
+				</div>
+				<img src="../pictures/icon/Hamburger_icon.svg.png" alt="" class="head__burger" id="head__burger" onclick="Burger()">
+				<script>
+					function Burger(){
+						if (document.getElementById('head__burger').style.transform == "rotate(0deg)") {
+							document.getElementById('head__burger_menu').style.display = "flex";
+							document.getElementById('head__burger').style.transform = "rotate(-90deg)";
+							document.getElementById('head__burger_item').style.display = "flex";
+						}
+						else{
+							document.getElementById('head__burger_menu').style.display = "none";
+							document.getElementById('head__burger').style.transform = "rotate(0deg)";
+							document.getElementById('head__burger_item').style.display = "none";
+						}
+					}
+				</script>	
+			</div>
+			<div class="head__burger_menu" id="head__burger_menu">
+				<a href="#" class="head__burger_item">Home</a>
+				<a href="#" class="head__burger_item">Beverage</a>
+				<a href="#" class="head__burger_item">Stores</a>
+				<a href="#" class="head__burger_item">About</a>
+			</div>
+			<div class="head__dishes">
+				<h1 class="head__dishes_header">Treat yourself <br> with something <br> <span class="color">fresh</span> & <span class="head__header_color">tasty!</span></h1>
+				<a href="#" class="button head__dishes_button">LEARN MORE</a>
+			</div>
+			<div class="head__additionally">
+				<div class="head__opening_hours">
+					<h1 class="head__opening_hours_text">open from <br><span class="color">8</span> am - <span class="head__header_color">10</span> pm</h1>
+				</div>
+				<div class="head__subdishes">
+					<p class="head__subdishes_text">treat yourself <br> with something fresh <br> and tasty!</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<content class="content">
+		<div class="show_menu">
+			<div class="container">
+				<div class="show_menu__block_text">
+					<p class="show_menu__text"><span class="show_menu__text_bold">Lorem ipsum dolor sit amet</span> consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. Risus commodo viver ra maecenas.</p>
+					<a href="#" class="button show_menu__button">SEE MENU</a>
+				</div>
+			</div>
+		</div>
+		<div class="food_menu">
+			<div class="food_menu__wrapper">
+				<div class="container">
+					<h1 class="food_menu__header"><span class="color">All time Favorites</span></h1>
+					<div class="food_menu__price">
+						<div class="food_menu__price_block">
+							<a href="" class="button food_menu__button">smoothies</a>
+							<p class="food_menu__item">Papaya Smoothie <span class="color"># # # # #</span> $2.30</p>
+							<p class="food_menu__item">Apple Smoothie <span class="color"># # # # # #</span> $2.30</p>
+							<p class="food_menu__item">Pineapple Smoothie <span class="color"># # # #</span> $2.30</p>
+							<p class="food_menu__item">Cherry Smoothie <span class="color"># # # # # #</span> $2.30</p>
+							<p class="food_menu__item">Avocado Smoothie <span class="color"># # # # #</span> $2.30</p>
+							<p class="food_menu__item">Kiwi Smoothie <span class="color"># # # # # # #</span> $2.30</p>
+							<p class="food_menu__item">Banana Smoothie <span class="color"># # # # #</span> $2.30</p>
+						</div>
+						<div class="food_menu__price_block">
+							<a href="" class="button food_menu__button">smoothies</a>
+							<p class="food_menu__item">Papaya Smoothie <span class="color"># # # # #</span> $2.30</p>
+							<p class="food_menu__item">Apple Smoothie <span class="color"># # # # # #</span> $2.30</p>
+							<p class="food_menu__item">Pineapple Smoothie <span class="color"># # # #</span> $2.30</p>
+							<p class="food_menu__item">Cherry Smoothie <span class="color"># # # # # #</span> $2.30</p>
+							<p class="food_menu__item">Avocado Smoothie <span class="color"># # # # #</span> $2.30</p>
+							<p class="food_menu__item">Kiwi Smoothie <span class="color"># # # # # # #</span> $2.30</p>
+							<p class="food_menu__item">Banana Smoothie <span class="color"># # # # #</span> $2.30</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="food_menu__learn_more">
+					<h1 class="food_menu__header_two_block">Beat summer<br>heat with<br><span class="color">quirky fruity</span>!</h1>
+					<div class="food_menu__text"><span class="food_menu__text_bold">Lorem ipsum dolor sit amet</span> consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. Risus commodo viver ra maecenas.</div>
+					<a href="#" class="button food_menu__button food_menu__button_two_block">SEE MORE</a>
+				</div>
+			</div>
+		</div>
+		<div class="juice">
+			<div class="container">
+				<div class="juice__column">
+					<div class="juice__item">
+						<h1 class="juice__header">Orange<br>Juice</h1>
+						<h1 class="juice__price">$3.20</h1>
+						<a href="#" class="button juice__button">ADD TO CART</a>
+					</div>
+					<div class="juice__item">
+						<h1 class="juice__header">Pineapple<br>Juice</h1>
+						<h1 class="juice__price">$3.20</h1>
+						<a href="#" class="button juice__button">ADD TO CART</a>
+					</div>
+					<div class="juice__item">
+						<h1 class="juice__header">Papaya<br>Juice</h1>
+						<h1 class="juice__price">$3.20</h1>
+						<a href="#" class="button juice__button">ADD TO CART</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info">
+			<div class="container">
+				<div class="info__see_more">
+					<h1 class="info__see_more_header">Try something<br>that feels <span class="color">new</span><br>and <span class="color">you</span>!</h1>
+					<a href="#" class="button info__see_more_button">SEE MORE</a>
+				</div>
+				<div class="info__learn_more">
+					<div class="info__learn_more_header">Feel refreshed and energize<br>with these <span class="color">fresh fruits</span> drinks!</div>
+					<a href="#" class="button info__learn_more_button">LEARN MORE</a>
+				</div>
+				<div class="grade">
+					<img src="../pictures/icon/smile.png" alt="" class="grade__smile">
+					<h1 class="grade__header">Christian <span class="color">Amon</span></h1>
+					<p class="grade__text"><span class="grade__text_bold">Lorem ipsum dolor sit amet</span> consectetur adipi scing<br>elit, sed do eiusmod tempor incididunt ut labore et<br>dolore magna aliqua. Quis ipsum sus pendisse ultrices<br>gravida. Risus commodo viver ra maecenas accumsan<br>lacus vel facilisis.</p>
+					<div class="grade__block_stars">
+						<img src="../pictures/icon/stars.png" alt="" class="grade__stars">
+					</div>
+				</div>
+				<div class="register">
+					<h1 class="register__header">Newsletter <span class="color">Registration</span></h1>
+					<div class="register__block_string">
+						<input type="text" placeholder="First name" class="register__stringer">
+						<input type="text" placeholder="Last name" class="register__stringer">
+					</div>
+					<input type="text" placeholder="Email subject" class="register__stringer_longer">
+					<textarea class="register__stringer_big" placeholder="Message..." maxlength="781"></textarea>
+					<a href="#" class="button register__button">Submit Email</a>
+				</div>
+			</div>
+		</div>
+	</content>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__block">
+				<h1 class="logo">quirky<br>-fruity</h1>
+				<div class="footer__column">
+					<div class="footer__item">
+						<a href="#" class="footer__link">Home</a>
+						<a href="#" class="footer__link">About</a>
+						<a href="#" class="footer__link">Menu</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Smoothies</a>
+						<a href="#" class="footer__link">Juices</a>
+						<a href="#" class="footer__link">Fruits</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">Imports</a>
+						<a href="#" class="footer__link">Branches</a>
+						<a href="#" class="footer__link">Social Media</a>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">History</a>
+						<a href="#" class="footer__link">Job Vacancies</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

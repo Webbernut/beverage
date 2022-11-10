@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+.show_menu{
+	background: url(../pictures/background/content_one_block_background.png);
+	width: 100%;
+	height: 26vw;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.show_menu__block_text{
+	width: 29.297vw;
+	padding-top: 6.348vw;
+}
+.show_menu__text{
+	font-size: 1.2vw;
+	margin-bottom: 2.441vw;
+}
+.show_menu__button{
+	font-size: 1.1vw;
+	padding: 0.488vw 5.2vw 0.488vw 5.2vw;
+}
+.button{
+	color: white;
+	border-radius: 2.441vw;
+	background-color: black;
+}
+.button:hover{
+	background-color: #d25230;
+}
+
+
+
+.food_menu{
+	background: url(../pictures/background/content_two_block_background.png);
+	width: 100%;
+	height: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 5.859vw;
+}
+.food_menu__wrapper{
+	margin-bottom: 58.594vw;
+}
+.food_menu__header{
+	font-size: 6vw;
+	margin-bottom: 10.254vw;
+	font-weight: 800;
+}
+.food_menu__price{
+	width: 47vw;
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	text-align: center;
+}
+.food_menu__price_block{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.food_menu__button{
+	text-align: center;
+	font-size: 1.7vw;
+	padding: 0.488vw 4.9vw 0.488vw 4.9vw;
+	margin: auto;
+	margin-bottom: 1.221vw;
+	
+}
+.food_menu__item{
+	font-size: 1.1vw;
+	padding: 0.732vw 0 0.732vw 0;
+}
+.food_menu__header_two_block{
+	font-size: 4vw;
+	line-height: 4vw;
+}
+.food_menu__text{
+	width: 25vw;
+	font-size: 1.1vw;
+	margin: 2vw 0 2vw 0;
+	font-family: "Times New Roman";
+}
+.food_menu__button_two_block{
+	width: 20vw;
+	margin: 0;
+}
+.food_menu__text_bold{
+	font-family: "Open Sans";
+}
+
+
+
+.juice{
+	background: url(../pictures/background/content_three_block_background.png);
+	width: 100%;
+	height: 58vw;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.juice__column{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 34.18vw;
+}
+.juice__item{
+	text-align: center;
+}
+.juice__header{
+	font-size: 4vw;
+	line-height: 3.906vw;
+}
+.juice__price{
+	font-size: 5vw;
+	color: #f0dbba;
+	margin-bottom: 2.441vw;
+}
+.juice__button{
+	padding: 0.732vw 5.859vw 0.732vw 5.859vw;
+	font-size: 1.5vw;
+}
+
+
+
+.info{
+	background: url(../pictures/background/content_four_block_background.png);
+	width: 100%;
+	height: 242vw;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.info__see_more{
+	padding-top: 20.508vw;
+	width: 40%;
+	float: right;
+}
+.info__see_more_header{
+	font-size: 4.2vw;
+	line-height: 3.906vw;
+	margin-bottom: 3.906vw;
+}
+.info__see_more_button{
+	padding: 0.488vw 6.348vw 0.488vw 6.348vw;
+	font-size: 1.5vw;
+}
+
+
+
+.info__learn_more{
+	padding-top: 68.359vw;
+	text-align: center;
+	margin-bottom: 54.688vw;
+}
+.info__learn_more_header{
+	font-size: 4vw;
+	margin-bottom: 1.709vw;
+	font-weight: 800;
+}
+.info__learn_more_button{
+	padding: 0.488vw 4.883vw 0.488vw 4.883vw;
+	font-size: 1.5vw;
+}
+
+
+
+.grade{
+	width: 46%;
+	margin: auto;
+	text-align: center;
+}
+.grade__smile{
+	width: 8vw;
+}
+.grade__header{
+	font-size: 4vw;
+}
+.grade__text{
+	font-size: 1.1vw;
+	margin-bottom: 2.441vw;
+	font-family: "Times New Roman";
+}
+.grade__text_bold{
+	font-weight: 800;
+}
+.grade__stars{
+	width: 20vw;
+}
+
+
+
+.register{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	margin-top: 24vw;
+}
+.register__header{
+	font-size: 4vw;
+	text-align: center;
+}
+.register__block_string{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 1.465vw;
+	margin-bottom: 1.465vw;
+}
+.register__stringer{
+	width: 47%;
+	font-size: 1.5vw;
+	outline: none;
+	border: none;
+	padding: 0.732vw 0 0.732vw 1.221vw;
+	background-color: white;
+	border-radius: 0.488vw;
+}
+.register__stringer_longer{
+	width: 98.3%;
+	font-size: 1.5vw;
+	outline: none;
+	border: none;
+	padding: 0.732vw 0 0.732vw 1.221vw;
+	background-color: white;
+	border-radius: 0.488vw;
+	margin-bottom: 1.465vw;
+}
+.register__stringer_big{
+	width: 96.5%;
+	font-size: 1.5vw;
+	outline: none;
+	border: none;
+	padding: 0.732vw 1.221vw 0 1.221vw;
+	background-color: white;
+	border-radius: 0.488vw;
+	margin-bottom: 1.465vw;
+	height: 19.531vw;
+	resize: none;
+	owerflow: hidden;
+	maxlength: 781;
+	margin-bottom: 7.813vw;
+}
+.register__button{
+	font-size: 1.9vw;
+	padding: 0.732vw 5.371vw 0.732vw 5.371vw;
+	margin: auto;
+}

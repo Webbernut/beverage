@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans";
+}
+.color{
+	color: #d25230;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	max-width: 78.125vw;
+	margin: 0 auto;
+}
+@media screen and (max-width: 1366px){
+	.head__submenu_item{
+		font-size: 1.7vw;
+	}
+	/*########################################*/
+}
+@media screen and (max-width: 860px){
+	.info{
+		height: 235vw;
+	}
+}
+@media screen and (max-width: 801px){
+	.container{
+		max-width: 85vw;
+	}
+	.head__submenu, .head__submenu_item{
+		display: none;
+	}
+	.head__burger{
+		display: flex;
+	}
+	.head__dishes_button{
+		font-size: 2.3vw;
+	}
+	/*########################################*/
+	.show_menu__block_text{
+		padding-top: 3vw;
+	}
+	.show_menu__text{
+		font-size: 1.5vw;
+		margin-bottom: 1.9vw;
+	}
+	/*########################################*/
+	.register{
+		margin-top: 10vw;
+	}
+	.register__stringer_big{
+		margin-bottom: 3vw;
+	}
+	.info__learn_more{
+		margin-bottom: 52vw;
+	}
+	.grade{
+		width: 60%;
+	}
+	.grade__smile{
+		width: 10vw;
+	}
+	.grade__header{
+		font-size: 6vw;
+	}
+	.grade__text{
+		font-size: 1.6vw;
+	}
+	/*########################################*/
+	.footer__link{
+		font-size: 2vw;
+	}
+}
+@media screen and (max-width: 600px){
+	.container{
+		max-width: 85vw;
+	}
+	/*########################################*/
+	.show_menu__button{
+		font-size: 2.3vw;
+	}
+	/*########################################*/
+	.food_menu__price{
+		width: 52vw;
+	}
+}

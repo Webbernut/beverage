@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+.head{
+	background: url(../pictures/background/head__background.png);
+	width: 100%;
+	height: 55vw;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.head__menu{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 4.88vw;
+}
+.logo{
+	color: #d25230;
+	font-size: 4vw;
+	font-weight: 800;
+	line-height: 3.906vw;
+}
+.head__submenu{
+	width: 39vw;
+	display: flex;
+	justify-content: space-between;
+	height: 1.465vw;
+	margin-top: 3.418vw;
+}
+.head__submenu_item{
+	color: black;
+	font-size: 1.3vw;
+}
+.head__submenu_item:hover{
+	color: #d25230;
+}
+.head__burger{
+	width: 4.883vw;
+	height: 4.883vw;
+	margin-top: 1.9vw;
+	display: none;
+	transition: 0.3s;
+}
+.head__burger_menu{
+	display: none;
+	flex-direction: column;
+	float: right;
+	text-align: center;
+	transform: rotate(0);
+}
+.head__burger_item{
+	color: black;
+	font-size: 2.3vw;
+	padding: 0.977vw 4.883vw 0.977vw 4.883vw;
+	background-color: #d25230;
+	border: 2px dashed white;
+	float: right;
+}
+
+.head__dishes{
+	width: 34.18vw;
+	text-align: center;
+	margin: auto;
+	margin-top: 8.789vw;
+	margin-bottom: 5.859vw;
+}
+.head__dishes_header{
+	font-size: 4vw;
+	line-height: 3.906vw;
+	font-weight: 800;
+	margin-bottom: 2.93vw;
+}
+.head__dishes_button{
+	font-size: 1.1vw;
+	padding: 0.488vw 4.88vw 0.488vw 4.88vw;
+	background-color: #d25230;
+	color: white;
+	font-weight: 800;
+	border-radius: 2.441vw;
+}
+.head__dishes_button:hover{
+	background-color: black;
+}
+.head__additionally{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.head__opening_hours{
+	width: 29.297vw;
+}
+.head__opening_hours_text{
+	font-size: 3vw;
+	font-weight: 800;
+	line-height: 2.93vw;
+}
+.head__subdishes{
+	margin-top: 0.488vw;
+	text-align: right;
+}
+.head__subdishes_text{
+	font-size: 2vw;
+	font-weight: 800;
+	line-height: 1.953vw;
+	color: #d25230;
+}
